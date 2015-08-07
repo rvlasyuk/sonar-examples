@@ -18,11 +18,13 @@
      <id>rv-releases</id>
      <name>RV Releases</name>
      <url>http://192.168.153.128:8081/nexus/content/repositories/rv-releases/</url>
+	 <layout>default</layout>
   </repository>
   <snapshotRepository>
      <id>rv-psnapshots</id>
      <name>RV Snapshots</name>
      <url>http://192.168.153.128:8081/nexus/content/repositories/rv-psnapshots/</url>
+	 <layout>default</layout>
   </snapshotRepository>
 </distributionManagement>
 
